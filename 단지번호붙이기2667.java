@@ -1,4 +1,4 @@
-package 백준알고리즘;
+package 백준알고리즘.Algorithm_UsingJava;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -15,6 +15,7 @@ class Pair{
 }
 
 public class 단지번호붙이기2667 {
+	//This is test word..
 	static int dr[] = {-1,0,1,0};
 	static int dc[] = {0,1,0,-1};
 	static Scanner sc = new Scanner(System.in);
