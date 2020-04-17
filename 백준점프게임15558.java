@@ -66,14 +66,12 @@ public class 백준점프게임15558 {
 						break;
 					}
 					else if(!check[x][y+dr[i]] && array[x][y+dr[i]]==1) {
-						System.out.println(x+" "+(y+dr[i])+" "+(z+1));
 						check[x][y+dr[i]]=true;
 						queue.add(new Tell(x,y+dr[i],z+1));
 					}
 				}
 				if(i==1) {
 					if(!check[x][y+dr[i]] && array[x][y+dr[i]]==1) {
-						System.out.println(x+" "+(y+dr[i])+" "+(z+1));
 						check[x][y+dr[i]]=true;
 						queue.add(new Tell(x,y+dr[i],z+1));						
 					}
@@ -86,7 +84,6 @@ public class 백준점프게임15558 {
 					}
 					else {
 						if(!check[1-x][y+dr[i]] && array[1-x][y+dr[i]]==1) {
-							System.out.println(x+" "+(y+dr[i])+" "+(z+1));
 							check[1-x][y+dr[i]]=true;
 							queue.add(new Tell(1-x,y+dr[i],z+1));	
 						}
